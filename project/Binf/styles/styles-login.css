@@ -11,8 +11,8 @@
     margin-left: 25px;
 }
 
-#log-in input[type="text"], input[type="password"] {
-    max-width: 300px;
+#login-nickname, #login-password {
+    max-width: 200px;
     font-family: "Buxton Sketch";
     font-size: 1.5em;
     border: 1px solid black;
@@ -24,7 +24,7 @@
     margin-bottom: 5px;
 }
 
-#log-in input[type="button"] {
+#login-button {
     margin: 70px 50px 0px 50px;
     padding: 10px;
     border: 1px solid black;
@@ -33,6 +33,7 @@
     color: slategray;
     font-size: 1.5em;
     text-align: center;
-    min-width: 300px;
+    max-width: 300px;
+    font-family: "Buxton Sketch";
 }
 
