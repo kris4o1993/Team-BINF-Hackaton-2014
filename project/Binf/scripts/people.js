@@ -67,7 +67,7 @@ window.onload = function () {
     //});
 
 
-    var addPeople = peopleListTemplate({ people: people });
+    var addPeople = peopleListTemplate( people[0] );
 
     peopleListContainer.innerHTML += addPeople;
 };
