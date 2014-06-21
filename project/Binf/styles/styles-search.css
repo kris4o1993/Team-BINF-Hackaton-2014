@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-#search-content input, textarea, select {
+#search-content input, textarea, select, button {
     font-size: 1.5em;
     border: 1px solid black;
     border-radius: 10px;
@@ -24,4 +24,10 @@
 #search-content textarea {
     max-width: 215px;
     max-height: 50px;
+}
+
+#search-button {
+    margin: 15px 25px 15px 50px;
+    padding: 10px;
+    min-width: 300px;
 }

@@ -10,7 +10,6 @@
     border-radius: 10px;
     background-color: aliceblue;
     color: slategray;
-    font-size: 1.5em;
     text-align: center;
     max-width: 220px;
     font-family: "Buxton Sketch", "Calibri", "Arial";
@@ -27,11 +26,6 @@
     background-color: #ACD1E9;
     border-radius: 10px;
 }
-
-#registration-photo::before {
-    
-}
-
 
 #registration-submit {
     margin: 15px 25px 15px 50px;
