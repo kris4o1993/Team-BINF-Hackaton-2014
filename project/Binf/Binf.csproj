@@ -65,15 +65,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bottom-menu.html" />
     <Content Include="container.html" />
+    <Content Include="images\placeholder.png" />
     <Content Include="LogIn.html" />
+    <Content Include="main-content.html" />
     <Content Include="MainPage.html" />
     <Content Include="registration.html" />
+    <Content Include="SearchPage.html" />
     <Content Include="styles\styles-login.css" />
     <Content Include="styles\styles-main.css" />
     <Content Include="styles\styles-container.css" />
     <Content Include="styles\styles-registration.css" />
+    <Content Include="styles\styles-search.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
