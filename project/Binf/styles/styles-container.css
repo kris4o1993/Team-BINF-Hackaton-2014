@@ -8,15 +8,16 @@
     font-family: "Buxton Sketch", "Calibri", "Arial";
 }
 
-#registration-title{
-    text-align:center;
+#registration-title {
+    text-align: center;
 }
+
 #top-menu {
     height: 120px;
     background-color: #B7AFA3;
 }
 
-#bottom-menu{
+#bottom-menu {
     height: 80px;
     background-color: #B7AFA3;
     margin: 0;
