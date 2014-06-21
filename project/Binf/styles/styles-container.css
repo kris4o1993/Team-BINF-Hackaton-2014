@@ -7,3 +7,17 @@
     background-color: #C1DAD6;
     font-family: "Buxton Sketch", "Calibri", "Arial";
 }
+
+#top-menu {
+    height: 120px;
+    background-color: #B7AFA3;
+}
+
+#bottom-menu{
+    height: 80px;
+    background-color: #B7AFA3;
+}
+
+#main-content {
+    height: 280px;
+}
