@@ -1,9 +1,11 @@
-#log-in, #sign-up{
-    margin: 50px;
+#main-log-in, #main-sign-up{
+    margin: 50px 50px 15px 50px;
     padding: 10px;
     border: 1px solid black;
+    border-radius: 10px;
     background-color:aliceblue;
     color: slategray;
     font-size: 1.5em;
     text-align: center;
+    min-width: 300px;
 }
