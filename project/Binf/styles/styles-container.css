@@ -45,7 +45,7 @@
     width: 80px;
     height: 80px;
     float: left;
-    border: 1px solid black;
+    border: 3px outset grey;
 }
 
 /*Main Content*/

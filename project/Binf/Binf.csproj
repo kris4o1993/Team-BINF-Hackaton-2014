@@ -66,11 +66,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="container.html" />
+    <Content Include="images\messages.png" />
+    <Content Include="images\off.png" />
+    <Content Include="images\on.png" />
     <Content Include="images\placeholder.png" />
+    <Content Include="images\search.png" />
+    <Content Include="images\settings.png" />
+    <Content Include="images\status.png" />
     <Content Include="LogIn.html" />
     <Content Include="main-content.html" />
     <Content Include="MainPage.html" />
     <Content Include="registration.html" />
+    <Content Include="scripts\handlebars.js" />
+    <Content Include="scripts\mapsAPI.js" />
+    <Content Include="scripts\people.js" />
     <Content Include="SearchPage.html" />
     <Content Include="styles\styles-login.css" />
     <Content Include="styles\styles-main.css" />
