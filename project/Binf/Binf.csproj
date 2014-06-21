@@ -71,6 +71,7 @@
     <Content Include="main-content.html" />
     <Content Include="MainPage.html" />
     <Content Include="registration.html" />
+    <Content Include="scripts\mapsAPI.js" />
     <Content Include="SearchPage.html" />
     <Content Include="styles\styles-login.css" />
     <Content Include="styles\styles-main.css" />
