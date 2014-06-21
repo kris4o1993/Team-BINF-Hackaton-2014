@@ -7,4 +7,9 @@
     padding: 15px;
     background-color: #C1DAD6;
     font-family: "Buxton Sketch", "calibri", "arial";
+    
+}
+
+#container label {
+    font-size: 1.5em;
 }
