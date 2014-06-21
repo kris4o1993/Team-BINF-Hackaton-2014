@@ -13,10 +13,7 @@
     text-align: center;
 }
 
-<<<<<<< HEAD
 /*Top Menu*/
-=======
->>>>>>> origin/master
 #top-menu {
     height: 140px;
     background-color: #6D929B;
@@ -28,8 +25,6 @@
     font-size: 1.1em;
 }
 
-<<<<<<< HEAD
-
 #target-profile-picture {
     border: 1px solid black;
     margin: 4px;
@@ -37,10 +32,7 @@
 }
 
 /*Bottom Menu*/
-#bottom-menu{
-=======
 #bottom-menu {
->>>>>>> origin/master
     height: 80px;
     background-color: #B7AFA3;
     margin: 0;
@@ -58,10 +50,7 @@
 
 /*Main Content*/
 #main-content {
-<<<<<<< HEAD
     height: 260px;
     border: 2px solid #B7AFA3;
-=======
     height: 280px;
->>>>>>> origin/master
 }
