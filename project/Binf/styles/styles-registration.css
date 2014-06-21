@@ -21,6 +21,18 @@
     max-height: 50px;
 }
 
+#registration-photo::-webkit-file-upload-button {
+    content: 'Select';
+    display: inline-block;
+    background-color: #ACD1E9;
+    border-radius: 10px;
+}
+
+#registration-photo::before {
+    
+}
+
+
 #registration-submit {
     margin: 15px 25px 15px 50px;
     padding: 10px;
