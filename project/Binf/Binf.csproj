@@ -69,7 +69,7 @@
     <Content Include="LogIn.html" />
     <Content Include="MainPage.html" />
     <Content Include="registration.html" />
-    <Content Include="styles\mainPageStyleSheet.css" />
+    <Content Include="styles\styles-main.css" />
     <Content Include="styles\styles-container.css" />
     <Content Include="styles\styles-registration.css" />
     <Content Include="Web.config" />
