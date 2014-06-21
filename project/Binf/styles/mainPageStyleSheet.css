@@ -1,0 +1,9 @@
+﻿#container {
+    width: 400px;
+    height: 480px;
+    border-width: 70px 15px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #C1DAD6;
+}

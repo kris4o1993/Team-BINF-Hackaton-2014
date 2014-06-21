@@ -66,6 +66,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="container.html" />
+    <Content Include="MainPage.html" />
+    <Content Include="styles\mainPageStyleSheet.css" />
     <Content Include="styles\styles-container.css" />
     <Content Include="Web.config" />
   </ItemGroup>
