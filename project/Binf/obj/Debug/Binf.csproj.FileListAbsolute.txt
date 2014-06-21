@@ -1,0 +1,6 @@
+C:\Users\Elena\Documents\GitHub\Team-BINF-Hackaton-2014\project\Binf\bin\Binf.dll.config
+C:\Users\Elena\Documents\GitHub\Team-BINF-Hackaton-2014\project\Binf\bin\Binf.dll
+C:\Users\Elena\Documents\GitHub\Team-BINF-Hackaton-2014\project\Binf\bin\Binf.pdb
+C:\Users\Elena\Documents\GitHub\Team-BINF-Hackaton-2014\project\Binf\obj\Debug\Binf.csprojResolveAssemblyReference.cache
+C:\Users\Elena\Documents\GitHub\Team-BINF-Hackaton-2014\project\Binf\obj\Debug\Binf.dll
+C:\Users\Elena\Documents\GitHub\Team-BINF-Hackaton-2014\project\Binf\obj\Debug\Binf.pdb
