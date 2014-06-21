@@ -4,7 +4,7 @@
     text-align: center;
 }
 
-#registration-content input, textarea, button {
+#registration-content input, textarea, button, select {
     font-size: 1.5em;
     border: 1px solid black;
     border-radius: 10px;
