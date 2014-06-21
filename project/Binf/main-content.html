@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <title>CountMeIn</title>
     <link rel="stylesheet" type="text" href="styles/styles-container.css" />
+    <script src="scripts/handlebars.js"></script>
     <script type="text/javascript"
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_7qQ8UYP2U3tjS3WcsUcN7DgeyYrE0fY">
     </script>
+    <script src="scripts/people.js"></script>
 </head>
 <body>
     <div id="container">
         <div id="top-menu">
             <img src="images/placeholder.png" id="target-profile-picture" />
             <div id="target-info">
-                <p id="target-main-info"><strong>Profile: </strong>epitsin, Female, age 21</p>
-                <p id="target-interests"><strong>Likes: </strong>Programming, Sport, Computer Games, Belot</p>
             </div>
         </div>
         <div id="main-content">
@@ -28,5 +28,9 @@
             <button class="bottom-menu-button">SETTINGS</button>
         </div>
     </div>
+    <script id="people-template" type='text/x-handlebars-template'>
+        <p id="target-main-info"><strong>Profile: </strong>{{nickname}}, {{age}}, {{gender}}</p>
+        <p id="target-interests"><strong>Likes: </strong>{{interests}}</p>
+    </script>
 </body>
 </html>
