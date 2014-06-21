@@ -21,6 +21,11 @@
     max-height: 50px;
 }
 
+#registration-photo{
+    border-radius: 10px;
+
+}
+
 #registration-submit {
     margin: 15px 25px 15px 50px;
     padding: 10px;
