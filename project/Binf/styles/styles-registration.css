@@ -1,15 +1,30 @@
-#registration-content label {
-    font-size: 1.5em;
+td:nth-child(2n) {
+    align-content: right;
 }
 
-#registration-content input, textarea {
+#registration-content label {
+    font-size: 1.5em;
+    margin-left: 25px;
+    text-align: center;
+}
+
+#registration-content input, textarea, button {
     font-size: 1.5em;
     border: 1px solid black;
     border-radius: 10px;
-    background-color:aliceblue;
+    background-color: aliceblue;
     color: slategray;
     font-size: 1.5em;
     text-align: center;
-    max-width: 300px;
+    max-width: 200px;
     font-family: "Buxton Sketch", "Calibri", "Arial";
+}
+
+#registration-content textarea {
+    max-width: 195px;
+    max-height: 50px;
+}
+
+#registration-content button {
+    margin: 25px;
 }

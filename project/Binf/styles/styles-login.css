@@ -1,0 +1,38 @@
+#log-in {
+
+}
+
+#log-in h1 {
+    text-align: center;
+}
+
+#log-in label {
+    font-size: 1.5em;
+    margin-left: 25px;
+}
+
+#log-in input[type="text"], input[type="password"] {
+    max-width: 300px;
+    font-family: "Buxton Sketch";
+    font-size: 1.5em;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:aliceblue;
+    color: slategray;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#log-in input[type="button"] {
+    margin: 70px 50px 0px 50px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:aliceblue;
+    color: slategray;
+    font-size: 1.5em;
+    text-align: center;
+    min-width: 300px;
+}
+
