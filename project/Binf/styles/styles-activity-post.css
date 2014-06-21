@@ -1,0 +1,48 @@
+﻿#post-content h1 {
+    text-align: center;
+}
+
+#post-content label {
+    font-size: 1.5em;
+    margin-left: 30px;
+    text-align: center;
+}
+
+#post-content #post-place, textarea, select, #post-button {
+    font-size: 1.5em;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: slategray;
+    text-align: center;
+    margin-left:45px;
+    max-width: 220px;
+    font-family: "Buxton Sketch", "Calibri", "Arial";
+}
+
+#post-content textarea {
+    max-width: 215px;
+    max-height: 50px;
+}
+
+#post-button {
+    margin: 15px 25px 120px 50px;
+    padding: 10px;
+    min-width: 300px;
+}
+
+#post-from-hours, #post-to-hours{
+    max-width: 50px;
+    display:inline-block;
+    font-size: 1.5em;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: slategray;
+    text-align: center;
+    font-family: "Buxton Sketch", "Calibri", "Arial";
+}
+
+.special{
+    padding-left:45px;
+}

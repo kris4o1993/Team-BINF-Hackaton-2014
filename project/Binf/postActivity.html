@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Activity</title>
+    <link rel="stylesheet" type="text" href="styles/styles-container.css" />
+    <link href="styles/styles-activity-post.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="container">
+        <div id="post-content">
+            <div id="search-title">
+                <h1>Post Activity</h1>
+            </div>
+            <table>
+                <tr>
+                    <td>
+                        <label for="post-activity">Activity</label>
+                    </td>
+                    <td>
+                        <textarea id="post-activity"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="post-hours">Hours</label>
+                    </td>
+                    <td class="special">
+                        From: <input type="number" id="post-from-hours" />
+                        To: <input type="number" id="post-to-hours" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="post-place">Place</label>
+                    </td>
+                    <td>
+                        <input type="text" id="post-place" />
+                    </td>
+                </tr>
+            </table>
+            <button id="post-button">Post</button>
+        </div>
+        <script src="scripts/mapsAPI.js"></script>
+        <div id="bottom-menu">
+            <button class="bottom-menu-button"><img src="images/on.png" /></button>
+            <button class="bottom-menu-button"><img src="images/status.png" /></button>
+            <button class="bottom-menu-button"><img src="images/search.png" /></button>
+            <button class="bottom-menu-button"><img src="images/messages.png" /></button>
+            <button class="bottom-menu-button"><img src="images/settings.png" /></button>
+        </div>
+    </div>
+</body>
+</html>

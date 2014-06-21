@@ -76,11 +76,13 @@
     <Content Include="LogIn.html" />
     <Content Include="main-content.html" />
     <Content Include="MainPage.html" />
+    <Content Include="postActivity.html" />
     <Content Include="registration.html" />
     <Content Include="scripts\handlebars.js" />
     <Content Include="scripts\mapsAPI.js" />
     <Content Include="scripts\people.js" />
     <Content Include="SearchPage.html" />
+    <Content Include="styles\styles-activity-post.css" />
     <Content Include="styles\styles-login.css" />
     <Content Include="styles\styles-main.css" />
     <Content Include="styles\styles-container.css" />
