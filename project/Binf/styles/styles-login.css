@@ -8,20 +8,20 @@
 
 #log-in label {
     font-size: 1.5em;
+    margin-left: 25px;
 }
 
 #log-in input[type="text"], input[type="password"] {
-    width: 200px;
-    height: 30px;
-    margin-bottom: 5px;
-
+    max-width: 300px;
+    font-family: "Buxton Sketch";
+    font-size: 1.5em;
     border: 1px solid black;
     border-radius: 10px;
     background-color:aliceblue;
-
-    font-family: "Buxton Sketch";
-    font-size: 1.2em;
+    color: slategray;
+    font-size: 1.5em;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 #log-in input[type="button"] {
@@ -35,3 +35,4 @@
     text-align: center;
     min-width: 300px;
 }
+
