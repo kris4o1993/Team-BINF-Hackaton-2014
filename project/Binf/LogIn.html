@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
@@ -12,13 +12,25 @@
         <div id="log-in">
             <h1>Log in</h1>
             <br />
-            <label for="login-nickname">Nickname</label>
-            <input type="text" id="login-nickname"/>
-            <br />
-            <label for="login-password">Password</label>
-            <input type="password" id="login-password"/>
-            <br />
-            <input type="button"  value="Count me in !"/>
+            <table>
+                <tr>
+                    <td>
+                        <label for="login-nickname">Nickname</label>
+                    </td>
+                    <td>
+                        <input type="text" id="login-nickname" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="login-password">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="login-password" />
+                    </td>
+                </tr>
+            </table>
+            <input type="button" id="login-button" value="Count me in !" />
         </div>
     </div>
 </body>

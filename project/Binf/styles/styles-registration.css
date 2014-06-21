@@ -1,7 +1,3 @@
-td:nth-child(2n) {
-    align-content: right;
-}
-
 #registration-content label {
     font-size: 1.5em;
     margin-left: 25px;
