@@ -65,7 +65,7 @@ var people = [
 //peopleListContainer.innerHTML += addPeople;
 
 function success(position) {
-    var mapCenter = new google.maps.LatLng(42.685591, 23.341881);
+    var mapCenter = new google.maps.LatLng(42.684913, 23.339843);
     var coordsFootballEvent = new google.maps.LatLng(mapCenter.lat() - 0.003, mapCenter.lng() - 0.001);
     var coordsBelotEvent = new google.maps.LatLng(mapCenter.lat() + 0.003, mapCenter.lng() - 0.004);
     var coordsRunningEvent = new google.maps.LatLng(mapCenter.lat() - 0.001, mapCenter.lng() - 0.005);
