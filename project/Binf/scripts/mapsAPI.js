@@ -51,6 +51,8 @@ function success(position) {
     var coordsFirstEvent = new google.maps.LatLng(mapCenter.lat() - 0.003, mapCenter.lng() - 0.001);
     var coordsSecondEvent = new google.maps.LatLng(mapCenter.lat() + 0.003, mapCenter.lng() - 0.004);
     var coordsThirdEvent = new google.maps.LatLng(mapCenter.lat() - 0.001, mapCenter.lng() - 0.005);
+    var coordsBeerEvent = new google.maps.LatLng(mapCenter.lat() + 0.002, mapCenter.lng() - 0.003);
+    var coordsDogWalkingEvent = new google.maps.LatLng(mapCenter.lat(), mapCenter.lng() - 0.002);
 
     var mapOptions = {
         center: mapCenter,
@@ -78,9 +80,17 @@ function success(position) {
         title: "We are coding here!"
     });
 
-    console.log(marker3);
+    var marker4 = new google.maps.Marker({
+        position: coordsBeerEvent,
+        map: map,
+        title: "We are drinking Beer here!"
+    });
 
-    //var markers
+    var marker5 = new google.maps.Marker({
+        position: coordsDogWalkingEvent,
+        map: map,
+        title: "We are walking our dogs right here!"
+    });
 
     var infowindow = new google.maps.InfoWindow({
         content: marker.title
@@ -105,6 +115,20 @@ function success(position) {
         $('#target-main-info').text(people[2]['activity']);
         $('#target-from').text(people[2]['from']);
         $('#target-to').text(people[2]['to']);
+    });
+
+    google.maps.event.addListener(marker4, 'click', function () {
+        $('#event-info').show();
+        $('#target-main-info').text(people[3]['activity']);
+        $('#target-from').text(people[3]['from']);
+        $('#target-to').text(people[3]['to']);
+    });
+
+    google.maps.event.addListener(marker5, 'click', function () {
+        $('#event-info').show();
+        $('#target-main-info').text(people[4]['activity']);
+        $('#target-from').text(people[4]['from']);
+        $('#target-to').text(people[4]['to']);
     });
 }
 
