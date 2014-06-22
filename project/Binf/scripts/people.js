@@ -1,29 +1,32 @@
 ﻿window.onload = function () {
     var people = [{
-        nickname: 'epitsin',
-        gender: 'Female',
-        age: '21',
-        interests: 'Programming, Basketball, Travelling, Belot'
+        activity: 'volleyball',
+        from: '09:00',
+        to: '11:00'
     }, {
-        nickname: 'adzhazhev',
-        gender: 'Male',
-        age: '22',
-        interests: 'Programming, Football, Computer Games, Belot'
+        activity: 'basketball',
+        from: '09:00',
+        to: '11:00'
     }, {
-        nickname: 'kris4o1993',
-        gender: 'Male',
-        age: '21',
-        interests: 'Programming, Game of thrones, Computer Games, Belot'
+        activity: 'football',
+        from: '09:00',
+        to: '11:00'
     }, {
-        nickname: 'chervenkov',
-        gender: 'Female',
-        age: '23',
-        interests: 'Programming, Sport, Computer Games, Belot'
+        activity: 'chess',
+        from: '09:00',
+        to: '11:00'
     }, {
-        nickname: 'pesho',
-        gender: 'Male',
-        age: '65',
-        interests: 'Pedophilia, Little children, BDSM'
+        activity: 'belot',
+        from: '09:00',
+        to: '11:00'
+    }, {
+        activity: 'running',
+        from: '09:00',
+        to: '11:00'
+    }, {
+        activity: 'walking dogs',
+        from: '09:00',
+        to: '11:00'
     }];
 
     var peopleListContainer = document.getElementById('target-info');
