@@ -87,24 +87,30 @@ function success(position) {
     });
 
     google.maps.event.addListener(marker, 'click', function () {
+        $('#no-activity-selected').hide();
         $('#event-info').show();
-        $('#target-main-info').text(people[0]['activity']);
-        $('#target-from').text(people[0]['from']);
-        $('#target-to').text(people[0]['to']);
+        $('#target-main-info').text('Activity: ' + people[0]['activity']);
+        $('#target-from').text('From: ' + people[0]['from']);
+        $('#target-to').text('To: ' + people[0]['to']);
+        $('#target-profile-picture').attr('src', people[0]['img'])
     });
 
     google.maps.event.addListener(marker2, 'click', function () {
+        $('#no-activity-selected').hide();
         $('#event-info').show();
-        $('#target-main-info').text(people[1]['activity']);
-        $('#target-from').text(people[1]['from']);
-        $('#target-to').text(people[1]['to']);
+        $('#target-main-info').text('Activity: ' + people[1]['activity']);
+        $('#target-from').text('From: ' + people[1]['from']);
+        $('#target-to').text('To: ' + people[1]['to']);
+        $('#target-profile-picture').attr('src', people[1]['img'])
     });
 
     google.maps.event.addListener(marker3, 'click', function () {
+        $('#no-activity-selected').hide();
         $('#event-info').show();
-        $('#target-main-info').text(people[2]['activity']);
-        $('#target-from').text(people[2]['from']);
-        $('#target-to').text(people[2]['to']);
+        $('#target-main-info').text('Activity: ' + people[2]['activity']);
+        $('#target-from').text('From: ' + people[2]['from']);
+        $('#target-to').text('To: ' + people[2]['to']);
+        $('#target-profile-picture').attr('src', people[2]['img'])
     });
 }
 
