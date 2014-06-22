@@ -22,13 +22,14 @@ var people = [
         {
             activity: 'drinking beer',
             from: '18:00',
-            to: '19:00'
+            to: '19:00',
+            img: 'images/beer-icon.png'
         },
         {
             activity: 'walking dogs',
             from: '20:00',
             to: '21:00',
-            img: 'images/dogwalk-icon.png'
+            img: 'images/dogwalk_icon.png'
         },
         {
             activity: 'volleyball',
@@ -147,6 +148,7 @@ function success(position) {
         $('#target-main-info').text('Activity: ' + people[3]['activity']);
         $('#target-from').text('From: ' + people[3]['from']);
         $('#target-to').text('To: ' + people[3]['to']);
+        $('#target-profile-picture').attr('src', people[3]['img'])
     });
 
     google.maps.event.addListener(dogsWalkingMarker, 'click', function () {
@@ -155,6 +157,7 @@ function success(position) {
         $('#target-main-info').text('Activity: ' + people[4]['activity']);
         $('#target-from').text('From: ' + people[4]['from']);
         $('#target-to').text('To: ' + people[4]['to']);
+        $('#target-profile-picture').attr('src', people[4]['img'])
     });
 }
 
