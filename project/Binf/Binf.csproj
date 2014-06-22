@@ -84,6 +84,7 @@
     <Content Include="scripts\people.js" />
     <Content Include="SearchPage.html" />
     <Content Include="styles\styles-activity-post.css" />
+    <Content Include="styles\styles-chat.css" />
     <Content Include="styles\styles-login.css" />
     <Content Include="styles\styles-main.css" />
     <Content Include="styles\styles-container.css" />
