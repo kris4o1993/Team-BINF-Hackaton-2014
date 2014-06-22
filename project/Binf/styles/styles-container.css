@@ -9,6 +9,12 @@
     font-family: "Buxton Sketch", "Calibri", "Arial";
 }
 
+h2 {
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
 #registration-title {
     text-align: center;
 }
@@ -26,18 +32,25 @@
 }
 
 #target-profile-picture {
-    border: 1px solid black;
-    margin: 4px;
+    margin: 5px;
     float: left;
+}
+
+#target-info {
+    margin-left: 120px;
+    font-size: 22px;
 }
 
 /*Bottom Menu*/
 #bottom-menu {
     height: 80px;
+    bottom: 70px;
     background-color: #B7AFA3;
     margin: 0;
     padding: 0;
 }
+
+
 
 #bottom-menu .bottom-menu-button {
     margin: 0;
@@ -51,5 +64,5 @@
 /*Main Content*/
 #main-content {
     border: 2px solid #B7AFA3;
-    height: 280px;
+    height: 320px;
 }
