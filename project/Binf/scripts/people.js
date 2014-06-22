@@ -5,28 +5,28 @@
         to: '11:00'
     }, {
         activity: 'basketball',
-        from: '09:00',
-        to: '11:00'
+        from: '10:00',
+        to: '11:30'
     }, {
         activity: 'football',
         from: '09:00',
         to: '11:00'
     }, {
         activity: 'chess',
-        from: '09:00',
-        to: '11:00'
+        from: '18:00',
+        to: '19:00'
     }, {
         activity: 'belot',
-        from: '09:00',
-        to: '11:00'
+        from: '19:00',
+        to: '21:00'
     }, {
         activity: 'running',
-        from: '09:00',
-        to: '11:00'
+        from: '08:00',
+        to: '09:00'
     }, {
         activity: 'walking dogs',
-        from: '09:00',
-        to: '11:00'
+        from: '20:00',
+        to: '21:00'
     }];
 
     var peopleListContainer = document.getElementById('target-info');
