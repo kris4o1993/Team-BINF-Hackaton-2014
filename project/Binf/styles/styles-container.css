@@ -15,7 +15,7 @@
 
 /*Top Menu*/
 #top-menu {
-    height: 140px;
+    height: 100px;
     background-color: #6D929B;
 }
 
@@ -50,7 +50,6 @@
 
 /*Main Content*/
 #main-content {
-    height: 260px;
     border: 2px solid #B7AFA3;
     height: 280px;
 }
